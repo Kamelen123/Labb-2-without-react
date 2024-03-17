@@ -1,0 +1,39 @@
+{
+    "skills": [
+        {
+            "tools":"Visual Studio c#",
+            "field":"System development"
+        },
+        {
+            "tools":"Visual Studio code",
+            "field":"Web development"
+        },
+        {
+            "tools":"SMSS",
+            "field":"Relational databases"
+        }
+    ],
+    "education": [
+        {
+            "period": "2023 - 2025",
+            "degree": "System development",
+            "institution": "Campus Varberg"
+        },
+        {
+            "period": "2019 - 2021",
+            "degree": "SMIL",
+            "institution": "Handelshögskolan Göteborg"
+        },
+        {
+            "period": "2011 - 2014",
+            "degree": "Naturvetenskap",
+            "institution": "Peder Skrivare Varberg"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Lumber",
+            "employer": "Byggmax, Varberg"
+        }
+    ]
+}

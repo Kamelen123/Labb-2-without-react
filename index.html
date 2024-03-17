@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8e9048d293.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" class="logo" alt="Logo torbjörn">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#CV">CV</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Accessibility">Accessibility</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+            <p>systems developer</p>
+            <h1>Hi, I'm Torbjörn <br> Welcome to my portfolio</h1>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="CV">
+        <div class="container">
+            <div class="row">
+                <div class="CV-col-1">
+                    <img src="images/IMG_1206.PNG" class="headshoot" alt="Picture of the developer">
+                </div>
+                <div class="CV-col-2">
+                    <h2>CV</h2>
+                    <h3>about me</h3>
+                    <p>My name is Torbjörn, I live in Varberg where I'm pursuing a degree in Systems Development, with a passion for technology and its applications in solving real-world problems. I am dedicated to honing my skills in programming languages, system architecture, and software development methodologies to contribute meaningfully to the field.</p>
+
+                    <nav class="tab-titles">
+                        <button class="tab-links active-link" onclick="opentab('skills')" aria-label="View Skills">Skills</button>
+                        <button class="tab-links"onclick="opentab('education')" aria-label="View Education">Education</button>
+                        <button class="tab-links"onclick="opentab('experiance')" aria-label="Experiance">Experiance</button>
+                    </nav>
+                    <article class="tab-content active-tab" id="skills">
+                        <ul id="skill-list"></ul>
+                    </article>
+                    <article class="tab-content" id="education">
+                        <ul id="education-list"></ul>
+                    </article>
+                    <article class="tab-content" id="experiance">
+                        <ul id="experience-list"></ul>
+                    </article>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <section id="Portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="project-list">
+                <article class="project">
+                    <img src="/images/Github.png" alt="Image of github portfolio with link">
+                    <div class="layer">
+                        <h3>Github Porfolio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure saepe, dolor architecto ex vero quia atque molestias sequi vel, aliquam pariatur distinctio culpa ut quam est magni, nostrum commodi.</p>
+                        <a href="https://github.com/Kamelen123" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="/images/Bank-App.png" alt="Image of banking app with link">
+                    <div class="layer">
+                        <h3>Banking Application</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure saepe, dolor architecto ex vero quia atque molestias sequi vel, aliquam pariatur distinctio culpa ut quam est magni, nostrum commodi.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img src="/images/Numbers-Game.png" class="img3" alt="Image of Numbers-Game with link">
+                    <div class="layer">
+                        <h3>Numbers Game</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure saepe, dolor architecto ex vero quia atque molestias sequi vel, aliquam pariatur distinctio culpa ut quam est magni, nostrum commodi.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="Accessibility">
+        <div class="container"> <!--for layout only-->
+            <h2 class="sub-title">Accessibility compliance</h2>
+            <div class="info-card-container"> <!-- div or section? -->
+                <article class="info-card">
+                    <h3>Use Semantic HTML</h3>
+                    <p>I have made an effort to minimize the use of div elements in my code and instead utilize appropriate semantic elements for structuring. By employing the correct elements, I aim to assist both browsers and assistive technologies like screen readers in conveying information to users effectively.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Provide Alternative Text</h3>
+                    <p>I have made an effort to include descriptive text for visual elements and avoid providing unnecessary information. Additionally, I have chosen to hide certain elements from screen readers using aria-hidden to optimize accessibility</p>
+                </article>
+                <article class="info-card">
+                    <h3>Optimize Color Contrast</h3>
+                    <p>I utilized the built-in tools provided by the browser to inspect the color contrast and readability of text on my website. These tools include features such as filters for grayscale and blur, which helped me assess the contrast and ensure readability for users with visual impairments.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Ensure Keyboard Accessibility / Implement Focus Styles</h3>
+                    <p>I made adjustments to some elements, replacing them with the button tag to enhance user-friendliness for keyboard users and improve clarity.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+<script src="JavaScript/index.js"></script>
+</body>
+</html>
